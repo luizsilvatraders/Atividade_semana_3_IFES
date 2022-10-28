@@ -150,7 +150,14 @@ a {
     /* FAZER AQUI */
     float: left;
     width: 65%;
-
+    padding: 10px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.sobre .hero .imagem:hover{
+    -moz-transform:scale(1.5);
+    transform: scale(0.8);
 }
 
 .sobre .hero .imagem img {
